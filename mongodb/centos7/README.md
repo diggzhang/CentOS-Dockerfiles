@@ -1,5 +1,11 @@
 dockerfiles-centos-mongodb
 ========================
+ 
+ 国内使用首选需要切换源
+ http://mirrors.aliyun.com/help/centos
+ wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+
+
 
 CentOS 7 dockerfile for MongoDB
 
